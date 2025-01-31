@@ -1,0 +1,16 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://d0aikp5l4f1kv"
+path="res://.godot/imported/playbutton_clickmask.png-a5ec1c095bbbc8daaac7e1ecabded3f4.res"
+
+[deps]
+
+source_file="res://Assets/playbutton_clickmask.png"
+dest_files=["res://.godot/imported/playbutton_clickmask.png-a5ec1c095bbbc8daaac7e1ecabded3f4.res"]
+
+[params]
+
+create_from=0
+threshold=0.5

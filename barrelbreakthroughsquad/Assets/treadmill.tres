@@ -1,0 +1,46 @@
+[gd_resource type="SpriteFrames" load_steps=7 format=3 uid="uid://cdoc3enr3hm3k"]
+
+[ext_resource type="Texture2D" uid="uid://dka88g0fp2cna" path="res://Assets/treadmill.png" id="1_l6c1c"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_78xdd"]
+atlas = ExtResource("1_l6c1c")
+region = Rect2(0, 0, 267, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3382p"]
+atlas = ExtResource("1_l6c1c")
+region = Rect2(267, 0, 267, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_luirn"]
+atlas = ExtResource("1_l6c1c")
+region = Rect2(534, 0, 267, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i3uyi"]
+atlas = ExtResource("1_l6c1c")
+region = Rect2(801, 0, 267, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yrc1h"]
+atlas = ExtResource("1_l6c1c")
+region = Rect2(1068, 0, 267, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_78xdd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3382p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_luirn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i3uyi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yrc1h")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]

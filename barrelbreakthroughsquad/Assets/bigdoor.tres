@@ -1,0 +1,58 @@
+[gd_resource type="SpriteFrames" load_steps=8 format=3 uid="uid://cswnum0hn628q"]
+
+[ext_resource type="Texture2D" uid="uid://csmuebmxhjqrw" path="res://Assets/bigdoor.png" id="1_gp28m"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1rgjj"]
+atlas = ExtResource("1_gp28m")
+region = Rect2(0, 0, 135, 162)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yclma"]
+atlas = ExtResource("1_gp28m")
+region = Rect2(0, 0, 135, 162)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y5e3u"]
+atlas = ExtResource("1_gp28m")
+region = Rect2(135, 0, 135, 162)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_daker"]
+atlas = ExtResource("1_gp28m")
+region = Rect2(270, 0, 135, 162)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yt6be"]
+atlas = ExtResource("1_gp28m")
+region = Rect2(405, 0, 135, 162)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5pu1u"]
+atlas = ExtResource("1_gp28m")
+region = Rect2(540, 0, 135, 162)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1rgjj")
+}],
+"loop": true,
+"name": &"closed",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yclma")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y5e3u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_daker")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yt6be")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5pu1u")
+}],
+"loop": false,
+"name": &"open",
+"speed": 10.0
+}]

@@ -1,0 +1,44 @@
+[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://cnc6kwaxh14fc"]
+
+[ext_resource type="Texture2D" uid="uid://cd53mcxq21c8b" path="res://Assets/trapdoor.png" id="1_3e47u"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_url6t"]
+atlas = ExtResource("1_3e47u")
+region = Rect2(0, 0, 30, 30)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gptte"]
+atlas = ExtResource("1_3e47u")
+region = Rect2(0, 0, 30, 30)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5wod8"]
+atlas = ExtResource("1_3e47u")
+region = Rect2(30, 0, 30, 30)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u8sgf"]
+atlas = ExtResource("1_3e47u")
+region = Rect2(60, 0, 30, 30)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_url6t")
+}],
+"loop": false,
+"name": &"close",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gptte")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5wod8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u8sgf")
+}],
+"loop": false,
+"name": &"open",
+"speed": 10.0
+}]

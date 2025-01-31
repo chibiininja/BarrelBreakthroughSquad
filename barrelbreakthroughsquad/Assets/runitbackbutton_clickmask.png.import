@@ -1,0 +1,16 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://dp8w1m1b3rh1v"
+path="res://.godot/imported/runitbackbutton_clickmask.png-aa7e9805f9d78f0d06a5e511289b1457.res"
+
+[deps]
+
+source_file="res://Assets/runitbackbutton_clickmask.png"
+dest_files=["res://.godot/imported/runitbackbutton_clickmask.png-aa7e9805f9d78f0d06a5e511289b1457.res"]
+
+[params]
+
+create_from=0
+threshold=0.5

@@ -1,0 +1,72 @@
+[gd_resource type="SpriteFrames" load_steps=10 format=3 uid="uid://bi8akcjd4ao5d"]
+
+[ext_resource type="Texture2D" uid="uid://ctsbc0g544rht" path="res://Assets/slidingdoor.png" id="1_es3gh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7gxlp"]
+atlas = ExtResource("1_es3gh")
+region = Rect2(0, 0, 15, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bvdho"]
+atlas = ExtResource("1_es3gh")
+region = Rect2(15, 0, 15, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4oc3a"]
+atlas = ExtResource("1_es3gh")
+region = Rect2(30, 0, 15, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mqruv"]
+atlas = ExtResource("1_es3gh")
+region = Rect2(45, 0, 15, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xniqm"]
+atlas = ExtResource("1_es3gh")
+region = Rect2(45, 0, 15, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e2h14"]
+atlas = ExtResource("1_es3gh")
+region = Rect2(30, 0, 15, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_612tt"]
+atlas = ExtResource("1_es3gh")
+region = Rect2(15, 0, 15, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_osclp"]
+atlas = ExtResource("1_es3gh")
+region = Rect2(0, 0, 15, 45)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7gxlp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bvdho")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4oc3a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mqruv")
+}],
+"loop": false,
+"name": &"close",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xniqm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e2h14")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_612tt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_osclp")
+}],
+"loop": false,
+"name": &"open",
+"speed": 20.0
+}]

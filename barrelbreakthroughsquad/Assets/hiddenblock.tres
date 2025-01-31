@@ -1,0 +1,79 @@
+[gd_resource type="SpriteFrames" load_steps=11 format=3 uid="uid://ddcylmcxyono4"]
+
+[ext_resource type="Texture2D" uid="uid://d1qbg54a30fjx" path="res://Assets/hiddenblock.png" id="1_btwdm"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u6fqy"]
+atlas = ExtResource("1_btwdm")
+region = Rect2(30, 0, 15, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lv2e3"]
+atlas = ExtResource("1_btwdm")
+region = Rect2(15, 0, 15, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xy4p5"]
+atlas = ExtResource("1_btwdm")
+region = Rect2(0, 0, 15, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f5kwh"]
+atlas = ExtResource("1_btwdm")
+region = Rect2(0, 0, 15, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_in8u1"]
+atlas = ExtResource("1_btwdm")
+region = Rect2(15, 0, 15, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fwuwe"]
+atlas = ExtResource("1_btwdm")
+region = Rect2(30, 0, 15, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_14nob"]
+atlas = ExtResource("1_btwdm")
+region = Rect2(45, 0, 15, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wjl37"]
+atlas = ExtResource("1_btwdm")
+region = Rect2(60, 0, 15, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_83opv"]
+atlas = ExtResource("1_btwdm")
+region = Rect2(75, 0, 15, 20)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u6fqy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lv2e3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xy4p5")
+}],
+"loop": false,
+"name": &"close",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f5kwh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_in8u1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fwuwe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_14nob")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wjl37")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_83opv")
+}],
+"loop": false,
+"name": &"open",
+"speed": 30.0
+}]
